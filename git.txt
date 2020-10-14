@@ -1,0 +1,14 @@
+git config --global user.name "thu-Punisher"
+git config --global user.email "ahadn055@icloud.com"
+
+
+
+echo "# to_be_remember_2020" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/thu-Punisher/to_be_remember_2020.git
+git push -u origin main
+git config --global http.proxy http://127.0.0.1:1080            
+//https://www.zhihu.com/question/23028445
